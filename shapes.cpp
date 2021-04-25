@@ -39,7 +39,7 @@ char Circle::display(){cout << "shape: Circle\nx: "<<getX() << "\ny: "<<getY()<<
 
 //rectangle
 //rectangle constructors
-Rectangle::Rectangle(int a,int b, int height, int width){Shape::setX(a);Shape::setY(b);setHeight(height);setWidth(width);}
+Rectangle::Rectangle(int a,int b, int height, int width){setX(a);setY(b);setHeight(height);setWidth(width);}
 Rectangle::Rectangle(){setX(0);setY(0);setHeight(0);setWidth(0);}
 //set height
 void Rectangle::setHeight(int h){height=h;}
